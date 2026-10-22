@@ -230,6 +230,20 @@ body.dark-theme {
     transform: rotate(-8deg);
 
     z-index: 2;
+    position: absolute;
+
+    width: 250px;
+    height: 185px;
+
+    margin: 0;
+
+    padding: 8px 8px 42px;
+
+    background: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
 .photo-card--center {
      left: 50%;
@@ -240,6 +254,20 @@ body.dark-theme {
         rotate(1deg);
 
     z-index: 1;
+    position: absolute;
+
+    width: 250px;
+    height: 185px;
+
+    margin: 0;
+
+    padding: 8px 8px 42px;
+
+    background: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
 .photo-card--right {
      right: 15px;
@@ -249,6 +277,19 @@ body.dark-theme {
     transform: rotate(6deg);
 
     z-index: 3;
+    position: absolute;
+
+    
+
+    margin: 0;
+
+    padding: 8px 8px 42px;
+
+    background: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
 .photo-card__image {
     min-height: 300px;
